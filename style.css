@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("assets/Norse-Bold.otf");
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100%;
+}
+
+.background-image {
+    background-image: url("assets/tyler-nix-jcshdOBf2kE-unsplash.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo-background {
+    height: auto;
+    background-color: rgba(243, 240, 240, 0.7);
+    position: relative;
+    top: 31vh;
+    gap: 1vw;
+    padding: 15px 0;
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+}
+
+.logo-text {
+    color: black;
+    font-family: "Norse-Bold", sans-serif;
+    font-size: 80px;
+    margin: 30px;
+}
+
+.player {
+    fill: white;
+    height: 80px;
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0%;
+    height: 100vh;
+}
+
+.description {
+    font-size: 36px;
+    background-color:blueviolet;
+    color: #1F2937;
+    font-weight: 900;
+    flex-grow: 5;
+}
+
+.form-box {
+    background-color: antiquewhite;
+    flex-grow: 4;
+}
+
+.btn-box {
+    background-color:aquamarine;
+    flex-grow: 5;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /*adds spacing between form rows*/
+}
+
+.form-row {
+    display: flex;
+}
+
+/*input:valid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid deepskyblue;
+    border-radius: 5px;
+    accent-color: gold;
+}
+
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}*/
+
+input:focus {
+    background-color:  lightgreen;
+}
